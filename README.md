@@ -1,4 +1,4 @@
-# BraienX AI-Powered ERP Platform
+# BraineX AI-Powered ERP Platform
 
 **Production-Ready Enterprise Resource Planning System with Integrated Machine Learning**
 
