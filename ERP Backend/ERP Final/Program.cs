@@ -72,7 +72,7 @@ builder.Services.AddHttpClient<IResumeMatchingService, ResumeMatchingService>()
     {
         client.BaseAddress = new Uri(builder.Configuration["ResumeMatching:FlaskApiUrl"] ?? "http://localhost:5006");
         client.Timeout = TimeSpan.FromSeconds(60);
-    });
+     });
 
 // Configure authentication and authorization.
 var jwtKey = builder.Configuration["Jwt:Key"] ?? "YourSuperSecretKeyForJWTTokenGeneration12345";
