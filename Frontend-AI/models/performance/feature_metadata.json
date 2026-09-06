@@ -1,0 +1,40 @@
+{
+  "numerical_features": [
+    "Age",
+    "Years_At_Company",
+    "Monthly_Salary",
+    "Work_Hours_Per_Week",
+    "Projects_Handled",
+    "Overtime_Hours",
+    "Sick_Days",
+    "Remote_Work_Frequency",
+    "Team_Size",
+    "Training_Hours",
+    "Promotions",
+    "Employee_Satisfaction_Score"
+  ],
+  "categorical_features": [
+    "Department",
+    "Gender",
+    "Job_Title",
+    "Education_Level"
+  ],
+  "all_features": [
+    "Age",
+    "Years_At_Company",
+    "Monthly_Salary",
+    "Work_Hours_Per_Week",
+    "Projects_Handled",
+    "Overtime_Hours",
+    "Sick_Days",
+    "Remote_Work_Frequency",
+    "Team_Size",
+    "Training_Hours",
+    "Promotions",
+    "Employee_Satisfaction_Score",
+    "Department",
+    "Gender",
+    "Job_Title",
+    "Education_Level"
+  ]
+}

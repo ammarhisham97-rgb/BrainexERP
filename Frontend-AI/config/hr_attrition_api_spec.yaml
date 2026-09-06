@@ -1,0 +1,90 @@
+openapi: 3.0.3
+info:
+  title: HR Attrition Prediction API
+  version: "1.0.0"
+  description: API that returns attrition prediction and probability for an employee record.
+servers:
+  - url: http://{host}:{port}
+    variables:
+      host:
+        default: localhost
+      port:
+        default: "5000"
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+  /predict:
+    post:
+      summary: Predict employee attrition
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                age:
+                  type: integer
+                  example: 35
+                monthly_income:
+                  type: number
+                  example: 5000
+                years_at_company:
+                  type: number
+                  example: 5
+                job_satisfaction:
+                  type: integer
+                  example: 3
+                work_life_balance:
+                  type: integer
+                  example: 2
+                distance_from_home:
+                  type: number
+                  example: 10
+              required: [age, monthly_income, years_at_company]
+      responses:
+        '200':
+          description: Prediction result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prediction:
+                    type: string
+                    description: Attrition prediction label
+                    example: No
+                  probability:
+                    type: number
+                    format: float
+                    description: Model confidence for positive class (Yes)
+                    example: 0.12
+                  model_version:
+                    type: string
+                    example: "v1.0"
+                  timestamp:
+                    type: string
+                    format: date-time
+                    example: "2026-01-27T12:00:00Z"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Missing required field: age"

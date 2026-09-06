@@ -1,0 +1,56 @@
+{
+  "sample_requests": [
+    {
+      "name": "Low Risk Employee",
+      "description": "Employee with good performance indicators",
+      "request": {
+        "features": [28, 55000, 4, 12, 97]
+      },
+      "expected_response": {
+        "performance_score": 4.2,
+        "rating": "Very Good"
+      }
+    },
+    {
+      "name": "High Risk Employee",
+      "description": "Employee with performance concerns",
+      "request": {
+        "features": [50, 35000, 15, 5, 70]
+      },
+      "expected_response": {
+        "performance_score": 2.8,
+        "rating": "Needs Improvement"
+      }
+    },
+    {
+      "name": "Excellent Performer",
+      "description": "Top performer in the organization",
+      "request": {
+        "features": [35, 80000, 8, 25, 99]
+      },
+      "expected_response": {
+        "performance_score": 4.8,
+        "rating": "Excellent"
+      }
+    },
+    {
+      "name": "Average Performer",
+      "description": "Employee with average performance",
+      "request": {
+        "features": [32, 50000, 6, 10, 90]
+      },
+      "expected_response": {
+        "performance_score": 3.5,
+        "rating": "Good"
+      }
+    }
+  ],
+  "batch_request_example": {
+    "features": [
+      [28, 55000, 4, 12, 97],
+      [50, 35000, 15, 5, 70],
+      [35, 80000, 8, 25, 99],
+      [32, 50000, 6, 10, 90]
+    ]
+  }
+}

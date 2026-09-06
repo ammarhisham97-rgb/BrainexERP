@@ -1,0 +1,310 @@
+2026-06-12 17:48:09,789 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 17:48:09,793 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 17:48:09,793 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 17:48:09,793 - ERROR - Document ingestion failed: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:48:09,794 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:48:09,794 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:48:09,795 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseHRChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+
+2026-06-12 17:48:09,795 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-12 17:48:09,796 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 17:48:09,797 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 17:48:09,797 - INFO -    PDF: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:48:09,797 - INFO - 
+2026-06-12 17:48:09,834 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 17:48:09,834 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 17:49:41,042 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 17:49:41,043 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 17:49:41,043 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 17:49:41,043 - ERROR - Document ingestion failed: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:49:41,043 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:49:41,043 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:49:41,044 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseHRChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_HR_Policy_Manual_Complete.pdf
+
+2026-06-12 17:49:41,044 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-12 17:49:41,045 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 17:49:41,046 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 17:49:41,046 - INFO -    PDF: Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:49:41,046 - INFO - 
+2026-06-12 17:49:41,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 17:49:41,054 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 17:51:16,846 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 17:51:16,848 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 17:51:16,848 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 17:51:16,848 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:51:31,306 - INFO -    Loaded 486 pages
+2026-06-12 17:51:31,307 - INFO - ✂️  Creating chunks...
+2026-06-12 17:51:31,324 - INFO -    Created 1268 chunks
+2026-06-12 17:51:31,325 - INFO - 🔍 Building vector index...
+2026-06-12 17:52:29,528 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-12 17:52:33,457 - INFO - No device provided, using cpu
+2026-06-12 17:52:34,070 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-12 17:52:52,354 - INFO - Loading faiss with AVX2 support.
+2026-06-12 17:52:52,354 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-12 17:52:52,354 - INFO - Loading faiss.
+2026-06-12 17:52:52,563 - INFO - Successfully loaded faiss.
+2026-06-12 17:52:52,810 - INFO -    Index ready!
+2026-06-12 17:52:52,810 - INFO - 🤖 Initializing LLM client...
+2026-06-12 17:52:53,307 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-12 17:52:53,307 - INFO - ✅ Chatbot initialized successfully!
+2026-06-12 17:52:53,307 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseHRChatbot object at 0x000001C35E0C3FD0>
+2026-06-12 17:52:53,308 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-12 17:52:53,308 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseHRChatbot object at 0x000001C35E0C3FD0>
+2026-06-12 17:52:53,309 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 17:52:53,309 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 17:52:53,309 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:52:53,309 - INFO - 
+2026-06-12 17:52:53,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 17:52:53,318 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 17:56:22,296 - INFO - 127.0.0.1 - - [12/Jun/2026 17:56:22] "[33mGET /api/hr-chatbot/health HTTP/1.1[0m" 404 -
+2026-06-12 17:56:35,134 - INFO - 127.0.0.1 - - [12/Jun/2026 17:56:35] "[33mGET /api/hr-chatbot/health HTTP/1.1[0m" 404 -
+2026-06-12 17:56:59,393 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 17:56:59,394 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 17:56:59,394 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 17:56:59,395 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:57:12,428 - INFO -    Loaded 486 pages
+2026-06-12 17:57:12,428 - INFO - ✂️  Creating chunks...
+2026-06-12 17:57:12,448 - INFO -    Created 1268 chunks
+2026-06-12 17:57:12,449 - INFO - 🔍 Building vector index...
+2026-06-12 17:57:20,618 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-12 17:57:20,916 - INFO - No device provided, using cpu
+2026-06-12 17:57:21,488 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-12 17:57:38,729 - INFO - Loading faiss with AVX2 support.
+2026-06-12 17:57:38,730 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-12 17:57:38,730 - INFO - Loading faiss.
+2026-06-12 17:57:38,760 - INFO - Successfully loaded faiss.
+2026-06-12 17:57:39,038 - INFO -    Index ready!
+2026-06-12 17:57:39,039 - INFO - 🤖 Initializing LLM client...
+2026-06-12 17:57:39,335 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-12 17:57:39,335 - INFO - ✅ Chatbot initialized successfully!
+2026-06-12 17:57:39,335 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseHRChatbot object at 0x00000237207C3FD0>
+2026-06-12 17:57:39,335 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-12 17:57:39,336 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseHRChatbot object at 0x00000237207C3FD0>
+2026-06-12 17:57:39,338 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 17:57:39,338 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 17:57:39,338 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 17:57:39,338 - INFO - 
+2026-06-12 17:57:39,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 17:57:39,347 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 17:57:48,382 - INFO - 127.0.0.1 - - [12/Jun/2026 17:57:48] "[33mGET /api/hr-chatbot/health HTTP/1.1[0m" 404 -
+2026-06-12 17:58:10,279 - INFO - 127.0.0.1 - - [12/Jun/2026 17:58:10] "[33mGET /api/hr-chatbot/health HTTP/1.1[0m" 404 -
+2026-06-12 17:58:19,302 - INFO - 127.0.0.1 - - [12/Jun/2026 17:58:19] "[33mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 404 -
+2026-06-12 18:00:00,793 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 18:00:00,794 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 18:00:00,794 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 18:00:00,795 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 18:00:13,470 - INFO -    Loaded 486 pages
+2026-06-12 18:00:13,471 - INFO - ✂️  Creating chunks...
+2026-06-12 18:00:13,491 - INFO -    Created 1268 chunks
+2026-06-12 18:00:13,492 - INFO - 🔍 Building vector index...
+2026-06-12 18:00:22,671 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-12 18:00:22,994 - INFO - No device provided, using cpu
+2026-06-12 18:00:23,557 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-12 18:00:41,327 - INFO - Loading faiss with AVX2 support.
+2026-06-12 18:00:41,327 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-12 18:00:41,328 - INFO - Loading faiss.
+2026-06-12 18:00:41,349 - INFO - Successfully loaded faiss.
+2026-06-12 18:00:41,567 - INFO -    Index ready!
+2026-06-12 18:00:41,567 - INFO - 🤖 Initializing LLM client...
+2026-06-12 18:00:41,775 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-12 18:00:41,776 - INFO - ✅ Chatbot initialized successfully!
+2026-06-12 18:00:41,776 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseHRChatbot object at 0x00000131D8FC3ED0>
+2026-06-12 18:00:41,776 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-12 18:00:41,776 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseHRChatbot object at 0x00000131D8FC3ED0>
+2026-06-12 18:00:41,778 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 18:00:41,778 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 18:00:41,778 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 18:00:41,778 - INFO - 
+2026-06-12 18:00:41,783 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 18:00:41,783 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 18:00:47,145 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:00:47,146 - INFO - 127.0.0.1 - - [12/Jun/2026 18:00:47] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:01:06,929 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:01:06,931 - INFO - 127.0.0.1 - - [12/Jun/2026 18:01:06] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:01:11,735 - INFO - 127.0.0.1 - - [12/Jun/2026 18:01:11] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-12 18:01:11,986 - INFO - 📥 Query: you there
+2026-06-12 18:01:22,143 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:01:22,157 - INFO - 127.0.0.1 - - [12/Jun/2026 18:01:22] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -
+2026-06-12 18:02:52,095 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:02:52,095 - INFO - 127.0.0.1 - - [12/Jun/2026 18:02:52] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:02:53,389 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:02:53,390 - INFO - 127.0.0.1 - - [12/Jun/2026 18:02:53] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:00,756 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:00,757 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:00] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:14,069 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:14,070 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:14] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:32,748 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:32,749 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:32] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:34,185 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:34,186 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:34] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:39,245 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:39,246 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:39] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:40,192 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:40,193 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:40] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:03:49,047 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:03:49,048 - INFO - 127.0.0.1 - - [12/Jun/2026 18:03:49] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:04:17,891 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 18:04:17,892 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 18:04:17,892 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-12 18:04:17,892 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 18:04:30,937 - INFO -    Loaded 486 pages
+2026-06-12 18:04:30,937 - INFO - ✂️  Creating chunks...
+2026-06-12 18:04:30,957 - INFO -    Created 1268 chunks
+2026-06-12 18:04:30,957 - INFO - 🔍 Building vector index...
+2026-06-12 18:04:40,669 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-12 18:04:41,009 - INFO - No device provided, using cpu
+2026-06-12 18:04:41,573 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-12 18:04:59,323 - INFO - Loading faiss with AVX2 support.
+2026-06-12 18:04:59,323 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-12 18:04:59,323 - INFO - Loading faiss.
+2026-06-12 18:04:59,349 - INFO - Successfully loaded faiss.
+2026-06-12 18:04:59,592 - INFO -    Index ready!
+2026-06-12 18:04:59,592 - INFO - 🤖 Initializing LLM client...
+2026-06-12 18:04:59,802 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-12 18:04:59,802 - INFO - ✅ Chatbot initialized successfully!
+2026-06-12 18:04:59,802 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseHRChatbot object at 0x000001722EFD4150>
+2026-06-12 18:04:59,802 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-12 18:04:59,802 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseHRChatbot object at 0x000001722EFD4150>
+2026-06-12 18:04:59,804 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 18:04:59,804 - INFO -    Host: 0.0.0.0:5004
+2026-06-12 18:04:59,804 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-12 18:04:59,804 - INFO - 
+2026-06-12 18:04:59,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-12 18:04:59,809 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 18:05:03,751 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:05:03,752 - INFO - 127.0.0.1 - - [12/Jun/2026 18:05:03] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:06:08,252 - INFO - 127.0.0.1 - - [12/Jun/2026 18:06:08] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-12 18:06:08,501 - INFO - 📥 Query: What is the annual leave policy?
+2026-06-12 18:06:28,713 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:06:28,726 - INFO - 127.0.0.1 - - [12/Jun/2026 18:06:28] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -
+2026-06-12 18:06:50,993 - INFO - 127.0.0.1 - - [12/Jun/2026 18:06:50] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-12 18:06:51,296 - INFO - 📥 Query: How many days of sick leave am I entitled to?
+2026-06-12 18:07:03,624 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:07:03,628 - INFO - 127.0.0.1 - - [12/Jun/2026 18:07:03] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -
+2026-06-12 18:07:58,429 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:07:58,429 - INFO - 127.0.0.1 - - [12/Jun/2026 18:07:58] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:07:59,636 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:07:59,637 - INFO - 127.0.0.1 - - [12/Jun/2026 18:07:59] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:02,009 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:02,009 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:02] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:03,231 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:03,231 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:03] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:05,063 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:05,063 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:05] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:06,742 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:06,742 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:06] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:10,899 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:10,899 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:10] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:21,113 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:21] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-12 18:08:21,417 - INFO - 📥 Query: How many days of sick leave am I entitled to?
+2026-06-12 18:08:27,438 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:08:27,439 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:27] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -
+2026-06-12 18:08:50,360 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:50,361 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:50] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:52,306 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:52,306 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:52] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:08:55,451 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:08:55,451 - INFO - 127.0.0.1 - - [12/Jun/2026 18:08:55] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:00,547 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:00,548 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:00] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:06,994 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:06,994 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:06] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:08,759 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:08,760 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:08] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:09,825 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:09,826 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:09] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:12,438 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:12,439 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:12] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:13,622 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:13,623 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:13] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:15,061 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:15,061 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:15] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:18,679 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 18:09:18,682 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:18] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-12 18:09:42,561 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:42] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-12 18:09:42,810 - INFO - 📥 Query: What is the annual leave policy?
+2026-06-12 18:09:58,302 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 18:09:58,303 - INFO - 127.0.0.1 - - [12/Jun/2026 18:09:58] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -
+2026-06-14 02:04:00,225 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-14 02:04:00,225 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-14 02:04:00,225 - INFO - 🤖 Initializing HR Chatbot...
+2026-06-14 02:04:00,225 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-14 02:04:12,246 - INFO -    Loaded 486 pages
+2026-06-14 02:04:12,246 - INFO - ✂️  Creating chunks...
+2026-06-14 02:04:12,268 - INFO -    Created 1268 chunks
+2026-06-14 02:04:12,268 - INFO - 🔍 Building vector index...
+2026-06-14 02:04:20,573 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-14 02:04:20,868 - INFO - No device provided, using cpu
+2026-06-14 02:04:21,401 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-14 02:04:40,558 - INFO - Loading faiss with AVX2 support.
+2026-06-14 02:04:40,558 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-14 02:04:40,558 - INFO - Loading faiss.
+2026-06-14 02:04:40,583 - INFO - Successfully loaded faiss.
+2026-06-14 02:04:40,820 - INFO -    Index ready!
+2026-06-14 02:04:40,823 - INFO - 🤖 Initializing LLM client...
+2026-06-14 02:04:41,055 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-14 02:04:41,055 - INFO - ✅ Chatbot initialized successfully!
+2026-06-14 02:04:41,057 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseHRChatbot object at 0x000001FEE59C3E90>
+2026-06-14 02:04:41,057 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-14 02:04:41,057 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseHRChatbot object at 0x000001FEE59C3E90>
+2026-06-14 02:04:41,059 - INFO - 🚀 Starting Flask API Server...
+2026-06-14 02:04:41,059 - INFO -    Host: 0.0.0.0:5004
+2026-06-14 02:04:41,059 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\hr_chatbot\Egyptian_HR_Policy_Manual_Complete.pdf
+2026-06-14 02:04:41,059 - INFO - 
+2026-06-14 02:04:41,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.4:5004
+2026-06-14 02:04:41,065 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 02:05:52,444 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 02:05:52,444 - INFO - 127.0.0.1 - - [14/Jun/2026 02:05:52] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-14 02:18:24,960 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 02:18:24,961 - INFO - 127.0.0.1 - - [14/Jun/2026 02:18:24] "GET /api/hr-chatbot/health HTTP/1.1" 200 -
+2026-06-14 02:23:09,968 - INFO - 127.0.0.1 - - [14/Jun/2026 02:23:09] "[35m[1mOPTIONS /api/hr-chatbot/ask HTTP/1.1[0m" 204 -
+2026-06-14 02:23:10,218 - INFO - 📥 Query: what is  annual leave policy ?
+2026-06-14 02:23:20,050 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-14 02:23:20,067 - INFO - 127.0.0.1 - - [14/Jun/2026 02:23:20] "POST /api/hr-chatbot/ask HTTP/1.1" 200 -

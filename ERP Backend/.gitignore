@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+bin/
+obj/
+
+# Rider
+.idea/
+
+# ASP.NET
+wwwroot/uploads/
+
+# NuGet
+*.nupkg
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test result
+TestResults/
+
+# Resharper
+_ReSharper*/
+*/.ReSharper*/
+
+# dotCover
+*.dotCover
+
+# Local settings
+appsettings.*.json
+
+# Azure pipelines
+.azure-pipelines/
+
+# Visual Studio Code
+.vscode/

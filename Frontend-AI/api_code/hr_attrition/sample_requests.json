@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "name": "low_risk",
+      "input": {
+        "age": 45,
+        "monthly_income": 8000,
+        "years_at_company": 8,
+        "job_satisfaction": 4,
+        "work_life_balance": 3,
+        "distance_from_home": 5
+      },
+      "expected_output": {
+        "prediction": "No",
+        "probability": 0.05
+      }
+    },
+    {
+      "name": "high_risk",
+      "input": {
+        "age": 28,
+        "monthly_income": 2200,
+        "years_at_company": 1,
+        "job_satisfaction": 1,
+        "work_life_balance": 1,
+        "distance_from_home": 25
+      },
+      "expected_output": {
+        "prediction": "Yes",
+        "probability": 0.87
+      }
+    }
+  ]
+}

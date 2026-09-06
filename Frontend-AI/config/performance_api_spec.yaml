@@ -1,0 +1,99 @@
+openapi: 3.0.0
+info:
+  title: Employee Performance Analytics API
+  version: 1.0.0
+  description: AI-powered API for predicting employee performance scores
+
+servers:
+  - url: http://localhost:5000
+    description: Local development server
+
+paths:
+  /predict:
+    post:
+      summary: Single employee performance prediction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                features:
+                  type: array
+                  items:
+                    type: number
+                  description: Array of employee features for prediction
+              example:
+                features: [30, 50000, 5, 10, 95]
+      responses:
+        '200':
+          description: Successful prediction
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  performance_score:
+                    type: number
+                    description: Performance score between 0 and 5
+                  rating:
+                    type: string
+                    enum: [Excellent, Very Good, Good, Satisfactory, Needs Improvement]
+              example:
+                performance_score: 4.25
+                rating: "Very Good"
+        '400':
+          description: Bad request - invalid features
+
+  /predict-batch:
+    post:
+      summary: Batch prediction for multiple employees
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                features:
+                  type: array
+                  items:
+                    type: array
+                    items:
+                      type: number
+              example:
+                features: [[30, 50000, 5, 10, 95], [35, 60000, 8, 15, 98]]
+      responses:
+        '200':
+          description: Successful batch prediction
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  predictions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        performance_score:
+                          type: number
+                        rating:
+                          type: string
+
+  /health:
+    get:
+      summary: Health check endpoint
+      responses:
+        '200':
+          description: API is running
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+              example:
+                status: "API is running"

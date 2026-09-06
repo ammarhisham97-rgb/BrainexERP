@@ -1,0 +1,54 @@
+# =============================================================================
+# NovaERP AI Microservices — Unified Python Dependencies
+# =============================================================================
+# Install: pip install -r requirements.txt
+# Python Version: 3.11+
+# =============================================================================
+
+# --- Web Framework -----------------------------------------------------------
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# --- ML / Scikit-Learn -------------------------------------------------------
+scikit-learn==1.3.2
+xgboost==2.0.0
+joblib>=1.3.0
+
+# --- Deep Learning (Fraud Detection - Keras/TF) -----------------------------
+tensorflow>=2.15.0          # provides Keras for loading .h5 fraud model
+
+# --- NLP / Transformers (Resume Matching + RAG Chatbots) --------------------
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers==2.2.2
+huggingface-hub>=0.20.0
+
+# --- LangChain (RAG Chatbots) -----------------------------------------------
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-core>=0.1.42
+langchain-text-splitters>=0.0.1
+
+# --- Vector Store ------------------------------------------------------------
+faiss-cpu>=1.13.2
+
+# --- Data Processing ---------------------------------------------------------
+numpy>=1.24.0
+pandas>=2.0.3
+
+# --- PDF Processing ----------------------------------------------------------
+pypdf>=4.0.1
+PyPDF2>=3.0.0
+
+# --- LLM Client (LM Studio) ------------------------------------------------
+openai>=1.12.0
+httpx>=0.25.0
+
+# --- Configuration -----------------------------------------------------------
+python-dotenv>=1.0.0
+pydantic>=2.5.3
+
+# --- Utilities ---------------------------------------------------------------
+requests>=2.31.0
+openpyxl>=3.1.2
+nltk>=3.8.0

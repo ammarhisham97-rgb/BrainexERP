@@ -1,0 +1,853 @@
+2026-06-10 02:53:04,163 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 02:53:04,168 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 02:53:04,169 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 02:53:04,169 - ERROR - Document ingestion failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:04,169 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:04,170 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:04,171 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+
+2026-06-10 02:53:04,171 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 02:53:04,173 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 02:53:04,173 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 02:53:04,173 - INFO -    PDF: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:04,173 - INFO - 
+2026-06-10 02:53:04,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 02:53:04,191 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 02:53:48,953 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 02:53:48,954 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 02:53:48,954 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 02:53:48,954 - ERROR - Document ingestion failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:48,954 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:48,954 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:48,954 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+
+2026-06-10 02:53:48,955 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 02:53:48,956 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 02:53:48,956 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 02:53:48,956 - INFO -    PDF: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 02:53:48,956 - INFO - 
+2026-06-10 02:53:48,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 02:53:48,985 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 21:45:10,193 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 21:45:10,195 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 21:45:10,195 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 21:45:10,196 - ERROR - Document ingestion failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:45:10,196 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:45:10,196 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:45:10,196 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+
+2026-06-10 21:45:10,197 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 21:45:10,198 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 21:45:10,198 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 21:45:10,198 - INFO -    PDF: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:45:10,198 - INFO - 
+2026-06-10 21:45:10,209 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 21:45:10,210 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 21:53:56,697 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 21:53:56,699 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 21:53:56,699 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 21:53:56,700 - ERROR - Document ingestion failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:53:56,700 - ERROR - ❌ Initialization failed: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:53:56,700 - ERROR - ❌ create_app(): Failed to initialize chatbot: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:53:56,700 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 120, in _ingest_documents
+    raise FileNotFoundError(f"PDF not found: {file_path}")
+FileNotFoundError: PDF not found: Egyptian_ERP_System_Comprehensive_Manual.pdf
+
+2026-06-10 21:53:56,701 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 21:53:56,702 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 21:53:56,702 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 21:53:56,702 - INFO -    PDF: Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:53:56,703 - INFO - 
+2026-06-10 21:53:56,712 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 21:53:56,712 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 21:54:40,082 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:54:40,084 - INFO - 127.0.0.1 - - [10/Jun/2026 21:54:40] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:54:57,602 - INFO - 127.0.0.1 - - [10/Jun/2026 21:54:57] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 21:54:57,906 - INFO - 127.0.0.1 - - [10/Jun/2026 21:54:57] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 21:55:05,393 - INFO - 127.0.0.1 - - [10/Jun/2026 21:55:05] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 21:55:05,696 - INFO - 127.0.0.1 - - [10/Jun/2026 21:55:05] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 21:55:34,096 - INFO - 127.0.0.1 - - [10/Jun/2026 21:55:34] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 21:55:34,398 - INFO - 127.0.0.1 - - [10/Jun/2026 21:55:34] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 21:57:12,199 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:12,200 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:12] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:57:15,020 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:15,020 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:15] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:57:22,935 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:22,935 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:22] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:57:27,664 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:27,665 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:27] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:57:33,619 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:33,619 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:33] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:57:42,959 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:57:42,960 - INFO - 127.0.0.1 - - [10/Jun/2026 21:57:42] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:58:09,448 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 21:58:09,449 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 21:58:09,450 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 21:58:09,450 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:58:09,540 - ERROR - Document ingestion failed: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 21:58:09,541 - ERROR - ❌ Initialization failed: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 21:58:09,541 - ERROR - ❌ create_app(): Failed to initialize chatbot: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 21:58:09,542 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 358, in lazy_parse
+    import pypdf
+ModuleNotFoundError: No module named 'pypdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 124, in _ingest_documents
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 305, in lazy_load
+    yield from self.parser.lazy_parse(blob)
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 360, in lazy_parse
+    raise ImportError(
+ImportError: `pypdf` package not found, please install it with `pip install pypdf`
+
+2026-06-10 21:58:09,542 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 21:58:09,543 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 21:58:09,543 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 21:58:09,544 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 21:58:09,544 - INFO - 
+2026-06-10 21:58:09,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 21:58:09,554 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 21:58:14,962 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 21:58:14,962 - INFO - 127.0.0.1 - - [10/Jun/2026 21:58:14] "GET /health HTTP/1.1" 200 -
+2026-06-10 21:59:19,840 - INFO - 127.0.0.1 - - [10/Jun/2026 21:59:19] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 21:59:20,094 - INFO - 127.0.0.1 - - [10/Jun/2026 21:59:20] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 21:59:36,621 - INFO - 127.0.0.1 - - [10/Jun/2026 21:59:36] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 21:59:36,926 - INFO - 127.0.0.1 - - [10/Jun/2026 21:59:36] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 22:01:30,861 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:01:30,861 - INFO - 127.0.0.1 - - [10/Jun/2026 22:01:30] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:01:50,762 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:01:50,762 - INFO - 127.0.0.1 - - [10/Jun/2026 22:01:50] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:01:56,250 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:01:56,251 - INFO - 127.0.0.1 - - [10/Jun/2026 22:01:56] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:02:01,254 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:02:01,254 - INFO - 127.0.0.1 - - [10/Jun/2026 22:02:01] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:02:42,350 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:02:42,351 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:02:42,351 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:02:42,351 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:02:42,406 - ERROR - Document ingestion failed: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 22:02:42,406 - ERROR - ❌ Initialization failed: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 22:02:42,407 - ERROR - ❌ create_app(): Failed to initialize chatbot: `pypdf` package not found, please install it with `pip install pypdf`
+2026-06-10 22:02:42,408 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 358, in lazy_parse
+    import pypdf
+ModuleNotFoundError: No module named 'pypdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 124, in _ingest_documents
+    docs = loader.load()
+           ^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\pdf.py", line 305, in lazy_load
+    yield from self.parser.lazy_parse(blob)
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\document_loaders\parsers\pdf.py", line 360, in lazy_parse
+    raise ImportError(
+ImportError: `pypdf` package not found, please install it with `pip install pypdf`
+
+2026-06-10 22:02:42,408 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:02:42,409 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:02:42,409 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:02:42,409 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:02:42,410 - INFO - 
+2026-06-10 22:02:42,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:02:42,420 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:02:54,854 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:02:54,855 - INFO - 127.0.0.1 - - [10/Jun/2026 22:02:54] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:03:30,321 - INFO - 127.0.0.1 - - [10/Jun/2026 22:03:30] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:03:30,625 - INFO - 127.0.0.1 - - [10/Jun/2026 22:03:30] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 22:03:42,457 - INFO - 127.0.0.1 - - [10/Jun/2026 22:03:42] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:03:42,761 - INFO - 127.0.0.1 - - [10/Jun/2026 22:03:42] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 22:04:45,752 - INFO - 🏥 Health check: chatbot=False, initialized=N/A, ready=False
+2026-06-10 22:04:45,752 - INFO - 127.0.0.1 - - [10/Jun/2026 22:04:45] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:06:06,988 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:06:06,990 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:06:06,990 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:06:06,990 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:06:21,642 - INFO -    Loaded 754 pages
+2026-06-10 22:06:21,643 - INFO - ✂️  Creating chunks...
+2026-06-10 22:06:21,667 - INFO -    Created 1343 chunks
+2026-06-10 22:06:21,667 - INFO - 🔍 Building vector index...
+2026-06-10 22:06:21,669 - INFO - No device provided, using cpu
+2026-06-10 22:06:22,057 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,058 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-10 22:06:22,072 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,234 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,246 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,261 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-10 22:06:22,412 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,425 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,574 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,588 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,606 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,801 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,814 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:22,980 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:22,994 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:23,152 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:23,300 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:23,315 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:23,543 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-06-10 22:06:23,815 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:23,972 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:24,125 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:24,281 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:24,430 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:24,444 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:24,602 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:24,615 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:24,769 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:24,782 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:24,932 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:24,946 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:25,120 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:25,272 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-10 22:06:25,426 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:25,439 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt "HTTP/1.1 200 OK"
+2026-06-10 22:06:25,593 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:25,607 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:25,761 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:25,912 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:25,926 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:26,081 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-06-10 22:06:26,291 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-10 22:06:26,304 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-10 22:06:26,468 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-10 22:06:52,537 - ERROR - Document ingestion failed: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2026-06-10 22:06:52,537 - ERROR - ❌ Initialization failed: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2026-06-10 22:06:52,538 - ERROR - ❌ create_app(): Failed to initialize chatbot: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2026-06-10 22:06:52,540 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 56, in dependable_faiss_import
+    import faiss
+ModuleNotFoundError: No module named 'faiss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 144, in _ingest_documents
+    self.vector_db = FAISS.from_documents(chunks, self.embeddings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_core\vectorstores\base.py", line 814, in from_documents
+    return cls.from_texts(texts, embedding, metadatas=metadatas, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 1044, in from_texts
+    return cls.__from(
+           ^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 996, in __from
+    faiss = dependable_faiss_import()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\vectorstores\faiss.py", line 58, in dependable_faiss_import
+    raise ImportError(
+ImportError: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+
+2026-06-10 22:06:52,546 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:06:52,548 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:06:52,548 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:06:52,549 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:06:52,549 - INFO - 
+2026-06-10 22:06:52,565 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:06:52,565 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:06:52,707 - INFO - 127.0.0.1 - - [10/Jun/2026 22:06:52] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:06:52,957 - INFO - 127.0.0.1 - - [10/Jun/2026 22:06:52] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 22:06:58,377 - INFO - 127.0.0.1 - - [10/Jun/2026 22:06:58] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:06:58,680 - INFO - 127.0.0.1 - - [10/Jun/2026 22:06:58] "[35m[1mPOST /ask HTTP/1.1[0m" 503 -
+2026-06-10 22:14:05,211 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:14:05,213 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:14:05,213 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:14:05,213 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:14:18,995 - INFO -    Loaded 754 pages
+2026-06-10 22:14:18,996 - INFO - ✂️  Creating chunks...
+2026-06-10 22:14:19,018 - INFO -    Created 1343 chunks
+2026-06-10 22:14:19,018 - INFO - 🔍 Building vector index...
+2026-06-10 22:14:31,080 - ERROR - Document ingestion failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:14:31,080 - ERROR - ❌ Initialization failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:14:31,083 - ERROR - ❌ create_app(): Failed to initialize chatbot: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:14:31,084 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 64, in __init__
+    import sentence_transformers
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\__init__.py", line 3, in <module>
+    from .datasets import SentencesDataset, ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\__init__.py", line 3, in <module>
+    from .ParallelSentencesDataset import ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\ParallelSentencesDataset.py", line 4, in <module>
+    from .. import SentenceTransformer
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 12, in <module>
+    from huggingface_hub import HfApi, HfFolder, Repository, hf_hub_url, cached_download
+ImportError: cannot import name 'cached_download' from 'huggingface_hub' (C:\Windows\System32\tf_env\Lib\site-packages\huggingface_hub\__init__.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 141, in _ingest_documents
+    self.embeddings = HuggingFaceEmbeddings(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 67, in __init__
+    raise ImportError(
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+
+2026-06-10 22:14:31,084 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:14:31,085 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:14:31,085 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:14:31,085 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:14:31,085 - INFO - 
+2026-06-10 22:14:31,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:14:31,109 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:15:25,788 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:15:25,789 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:15:25,789 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:15:25,789 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:15:39,652 - INFO -    Loaded 754 pages
+2026-06-10 22:15:39,652 - INFO - ✂️  Creating chunks...
+2026-06-10 22:15:39,674 - INFO -    Created 1343 chunks
+2026-06-10 22:15:39,675 - INFO - 🔍 Building vector index...
+2026-06-10 22:15:42,897 - ERROR - Document ingestion failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:15:42,897 - ERROR - ❌ Initialization failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:15:42,898 - ERROR - ❌ create_app(): Failed to initialize chatbot: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:15:42,899 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 64, in __init__
+    import sentence_transformers
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\__init__.py", line 3, in <module>
+    from .datasets import SentencesDataset, ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\__init__.py", line 3, in <module>
+    from .ParallelSentencesDataset import ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\ParallelSentencesDataset.py", line 4, in <module>
+    from .. import SentenceTransformer
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 12, in <module>
+    from huggingface_hub import HfApi, HfFolder, Repository, hf_hub_url, cached_download
+ImportError: cannot import name 'cached_download' from 'huggingface_hub' (C:\Windows\System32\tf_env\Lib\site-packages\huggingface_hub\__init__.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 141, in _ingest_documents
+    self.embeddings = HuggingFaceEmbeddings(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 67, in __init__
+    raise ImportError(
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+
+2026-06-10 22:15:42,899 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:15:42,900 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:15:42,900 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:15:42,901 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:15:42,901 - INFO - 
+2026-06-10 22:15:42,908 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:15:42,908 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:16:41,575 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:16:41,576 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:16:41,577 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:16:41,577 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:16:55,358 - INFO -    Loaded 754 pages
+2026-06-10 22:16:55,359 - INFO - ✂️  Creating chunks...
+2026-06-10 22:16:55,382 - INFO -    Created 1343 chunks
+2026-06-10 22:16:55,382 - INFO - 🔍 Building vector index...
+2026-06-10 22:16:58,594 - ERROR - Document ingestion failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:16:58,594 - ERROR - ❌ Initialization failed: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:16:58,594 - ERROR - ❌ create_app(): Failed to initialize chatbot: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-06-10 22:16:58,595 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 64, in __init__
+    import sentence_transformers
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\__init__.py", line 3, in <module>
+    from .datasets import SentencesDataset, ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\__init__.py", line 3, in <module>
+    from .ParallelSentencesDataset import ParallelSentencesDataset
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\datasets\ParallelSentencesDataset.py", line 4, in <module>
+    from .. import SentenceTransformer
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 12, in <module>
+    from huggingface_hub import HfApi, HfFolder, Repository, hf_hub_url, cached_download
+ImportError: cannot import name 'cached_download' from 'huggingface_hub' (C:\Windows\System32\tf_env\Lib\site-packages\huggingface_hub\__init__.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 141, in _ingest_documents
+    self.embeddings = HuggingFaceEmbeddings(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 67, in __init__
+    raise ImportError(
+ImportError: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+
+2026-06-10 22:16:58,596 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:16:58,597 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:16:58,597 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:16:58,597 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:16:58,597 - INFO - 
+2026-06-10 22:16:58,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:16:58,606 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:19:33,638 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:19:33,639 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:19:33,639 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:19:33,639 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:19:46,958 - INFO -    Loaded 754 pages
+2026-06-10 22:19:46,959 - INFO - ✂️  Creating chunks...
+2026-06-10 22:19:46,979 - INFO -    Created 1343 chunks
+2026-06-10 22:19:46,980 - INFO - 🔍 Building vector index...
+2026-06-10 22:20:14,724 - ERROR - Document ingestion failed: Your currently installed version of Keras is Keras 3, but this is not yet supported in Transformers. Please install the backwards-compatible tf-keras package with `pip install tf-keras`.
+2026-06-10 22:20:14,724 - ERROR - ❌ Initialization failed: Your currently installed version of Keras is Keras 3, but this is not yet supported in Transformers. Please install the backwards-compatible tf-keras package with `pip install tf-keras`.
+2026-06-10 22:20:14,724 - ERROR - ❌ create_app(): Failed to initialize chatbot: Your currently installed version of Keras is Keras 3, but this is not yet supported in Transformers. Please install the backwards-compatible tf-keras package with `pip install tf-keras`.
+2026-06-10 22:20:14,728 - ERROR - Traceback (most recent call last):
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\activations_tf.py", line 22, in <module>
+    import tf_keras as keras
+ModuleNotFoundError: No module named 'tf_keras'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 233, in create_app
+    chatbot = EnterpriseCustomerSupportChatbot(config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 106, in __init__
+    self._ingest_documents()
+  File "c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\main_app.py", line 141, in _ingest_documents
+    self.embeddings = HuggingFaceEmbeddings(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\langchain_community\embeddings\huggingface.py", line 64, in __init__
+    import sentence_transformers
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\__init__.py", line 15, in <module>
+    from sentence_transformers.base.sampler import DefaultBatchSampler, MultiDatasetDefaultBatchSampler
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\base\__init__.py", line 4, in <module>
+    from .model import BaseModel
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\base\model.py", line 32, in <module>
+    from sentence_transformers.base.model_card import BaseModelCardData, generate_model_card
+  File "C:\Windows\System32\tf_env\Lib\site-packages\sentence_transformers\base\model_card.py", line 28, in <module>
+    from transformers.integrations import CodeCarbonCallback
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2347, in _get_module
+    raise e
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\integrations\integration_utils.py", line 60, in <module>
+    from .. import TFPreTrainedModel
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2317, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2347, in _get_module
+    raise e
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\utils\import_utils.py", line 2345, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\modeling_tf_utils.py", line 38, in <module>
+    from .activations_tf import get_tf_activation
+  File "C:\Windows\System32\tf_env\Lib\site-packages\transformers\activations_tf.py", line 27, in <module>
+    raise ValueError(
+ValueError: Your currently installed version of Keras is Keras 3, but this is not yet supported in Transformers. Please install the backwards-compatible tf-keras package with `pip install tf-keras`.
+
+2026-06-10 22:20:14,729 - INFO - 📦 create_app(): Setting app.config['chatbot'] = None
+2026-06-10 22:20:14,731 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:20:14,731 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:20:14,731 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:20:14,732 - INFO - 
+2026-06-10 22:20:14,743 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:20:14,743 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:21:45,905 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-10 22:21:45,906 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-10 22:21:45,906 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-10 22:21:45,907 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:21:59,011 - INFO -    Loaded 754 pages
+2026-06-10 22:21:59,011 - INFO - ✂️  Creating chunks...
+2026-06-10 22:21:59,033 - INFO -    Created 1343 chunks
+2026-06-10 22:21:59,033 - INFO - 🔍 Building vector index...
+2026-06-10 22:22:07,696 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-10 22:22:11,479 - INFO - No device provided, using cpu
+2026-06-10 22:22:12,040 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-10 22:22:34,163 - INFO - Loading faiss with AVX2 support.
+2026-06-10 22:22:34,163 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-10 22:22:34,163 - INFO - Loading faiss.
+2026-06-10 22:22:34,467 - INFO - Successfully loaded faiss.
+2026-06-10 22:22:34,528 - INFO -    Index ready!
+2026-06-10 22:22:34,529 - INFO - 🤖 Initializing LLM client...
+2026-06-10 22:22:34,748 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-10 22:22:34,748 - INFO - ✅ Chatbot initialized successfully!
+2026-06-10 22:22:34,748 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x000001F3C74C3CD0>
+2026-06-10 22:22:34,749 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-10 22:22:34,749 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x000001F3C74C3CD0>
+2026-06-10 22:22:34,750 - INFO - 🚀 Starting Flask API Server...
+2026-06-10 22:22:34,750 - INFO -    Host: 0.0.0.0:5005
+2026-06-10 22:22:34,750 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-10 22:22:34,750 - INFO - 
+2026-06-10 22:22:34,755 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-10 22:22:34,756 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 22:22:52,594 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-10 22:22:52,596 - INFO - 127.0.0.1 - - [10/Jun/2026 22:22:52] "GET /health HTTP/1.1" 200 -
+2026-06-10 22:23:04,961 - INFO - 127.0.0.1 - - [10/Jun/2026 22:23:04] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:23:05,265 - INFO - 📥 Query: what can you help with
+2026-06-10 22:23:16,933 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 22:23:16,944 - INFO - 127.0.0.1 - - [10/Jun/2026 22:23:16] "POST /ask HTTP/1.1" 200 -
+2026-06-10 22:24:05,255 - INFO - 127.0.0.1 - - [10/Jun/2026 22:24:05] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-10 22:24:05,505 - INFO - 📥 Query: What is an ERP system?
+2026-06-10 22:24:09,829 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-10 22:24:09,830 - INFO - 127.0.0.1 - - [10/Jun/2026 22:24:09] "POST /ask HTTP/1.1" 200 -
+2026-06-11 17:10:24,228 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-11 17:10:24,229 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-11 17:10:24,229 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-11 17:10:24,230 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-11 17:10:45,875 - INFO -    Loaded 754 pages
+2026-06-11 17:10:45,876 - INFO - ✂️  Creating chunks...
+2026-06-11 17:10:45,917 - INFO -    Created 1343 chunks
+2026-06-11 17:10:45,918 - INFO - 🔍 Building vector index...
+2026-06-11 17:12:18,277 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-11 17:12:23,833 - INFO - No device provided, using cpu
+2026-06-11 17:12:24,463 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-11 17:12:58,531 - INFO - Loading faiss with AVX2 support.
+2026-06-11 17:12:58,532 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-11 17:12:58,532 - INFO - Loading faiss.
+2026-06-11 17:12:58,756 - INFO - Successfully loaded faiss.
+2026-06-11 17:12:58,823 - INFO -    Index ready!
+2026-06-11 17:12:58,823 - INFO - 🤖 Initializing LLM client...
+2026-06-11 17:12:59,419 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-11 17:12:59,419 - INFO - ✅ Chatbot initialized successfully!
+2026-06-11 17:12:59,419 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x000001D8925BFFD0>
+2026-06-11 17:12:59,420 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-11 17:12:59,420 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x000001D8925BFFD0>
+2026-06-11 17:12:59,421 - INFO - 🚀 Starting Flask API Server...
+2026-06-11 17:12:59,421 - INFO -    Host: 0.0.0.0:5005
+2026-06-11 17:12:59,422 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-11 17:12:59,422 - INFO - 
+2026-06-11 17:12:59,441 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-11 17:12:59,441 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-11 17:14:27,151 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 17:14:27,152 - INFO - 127.0.0.1 - - [11/Jun/2026 17:14:27] "GET /health HTTP/1.1" 200 -
+2026-06-11 17:14:32,909 - INFO - 127.0.0.1 - - [11/Jun/2026 17:14:32] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-11 17:14:33,213 - INFO - 📥 Query: what is erp
+2026-06-11 17:14:41,777 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 17:14:41,794 - INFO - 127.0.0.1 - - [11/Jun/2026 17:14:41] "POST /ask HTTP/1.1" 200 -
+2026-06-11 21:24:53,749 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-11 21:24:53,750 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-11 21:24:53,750 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-11 21:24:53,750 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-11 21:25:07,852 - INFO -    Loaded 754 pages
+2026-06-11 21:25:07,852 - INFO - ✂️  Creating chunks...
+2026-06-11 21:25:07,874 - INFO -    Created 1343 chunks
+2026-06-11 21:25:07,874 - INFO - 🔍 Building vector index...
+2026-06-11 21:25:20,882 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-11 21:25:21,579 - INFO - No device provided, using cpu
+2026-06-11 21:25:22,180 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-11 21:25:44,109 - INFO - Loading faiss with AVX2 support.
+2026-06-11 21:25:44,110 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-11 21:25:44,110 - INFO - Loading faiss.
+2026-06-11 21:25:44,133 - INFO - Successfully loaded faiss.
+2026-06-11 21:25:44,170 - INFO -    Index ready!
+2026-06-11 21:25:44,170 - INFO - 🤖 Initializing LLM client...
+2026-06-11 21:25:44,424 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-11 21:25:44,424 - INFO - ✅ Chatbot initialized successfully!
+2026-06-11 21:25:44,424 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x00000239E56D8110>
+2026-06-11 21:25:44,424 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-11 21:25:44,425 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x00000239E56D8110>
+2026-06-11 21:25:44,426 - INFO - 🚀 Starting Flask API Server...
+2026-06-11 21:25:44,426 - INFO -    Host: 0.0.0.0:5005
+2026-06-11 21:25:44,426 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-11 21:25:44,426 - INFO - 
+2026-06-11 21:25:44,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-11 21:25:44,435 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-11 21:29:32,971 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:29:32,972 - INFO - 127.0.0.1 - - [11/Jun/2026 21:29:32] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:00,424 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:00,425 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:00] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:08,071 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:08,072 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:08] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:11,368 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:11,368 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:11] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:23,249 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:23,249 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:23] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:28,378 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:28,379 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:28] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:36,817 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:36,818 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:36] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:40,841 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:40,841 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:40] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:34:55,236 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:34:55,236 - INFO - 127.0.0.1 - - [11/Jun/2026 21:34:55] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:35:18,822 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:35:18,822 - INFO - 127.0.0.1 - - [11/Jun/2026 21:35:18] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:35:34,016 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:35:34,017 - INFO - 127.0.0.1 - - [11/Jun/2026 21:35:34] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:35:46,294 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:35:46,295 - INFO - 127.0.0.1 - - [11/Jun/2026 21:35:46] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:38:05,703 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:38:05,704 - INFO - 127.0.0.1 - - [11/Jun/2026 21:38:05] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:38:46,855 - INFO - 127.0.0.1 - - [11/Jun/2026 21:38:46] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-11 21:38:47,104 - INFO - 📥 Query: how to change name
+2026-06-11 21:38:52,035 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 21:38:52,052 - INFO - 127.0.0.1 - - [11/Jun/2026 21:38:52] "POST /ask HTTP/1.1" 200 -
+2026-06-11 21:40:11,992 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:40:11,993 - INFO - 127.0.0.1 - - [11/Jun/2026 21:40:11] "GET /health HTTP/1.1" 200 -
+2026-06-11 21:56:15,913 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 21:56:15,916 - INFO - 127.0.0.1 - - [11/Jun/2026 21:56:15] "GET /health HTTP/1.1" 200 -
+2026-06-11 22:04:56,387 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 22:04:56,388 - INFO - 127.0.0.1 - - [11/Jun/2026 22:04:56] "GET /health HTTP/1.1" 200 -
+2026-06-11 22:18:00,576 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 22:18:00,576 - INFO - 127.0.0.1 - - [11/Jun/2026 22:18:00] "GET /health HTTP/1.1" 200 -
+2026-06-11 22:34:56,913 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 22:34:56,914 - INFO - 127.0.0.1 - - [11/Jun/2026 22:34:56] "GET /health HTTP/1.1" 200 -
+2026-06-11 23:04:56,061 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 23:04:56,062 - INFO - 127.0.0.1 - - [11/Jun/2026 23:04:56] "GET /health HTTP/1.1" 200 -
+2026-06-11 23:06:50,131 - INFO - 127.0.0.1 - - [11/Jun/2026 23:06:50] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-11 23:06:50,379 - INFO - 📥 Query: how do i change my name
+2026-06-11 23:06:56,683 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-11 23:06:56,701 - INFO - 127.0.0.1 - - [11/Jun/2026 23:06:56] "POST /ask HTTP/1.1" 200 -
+2026-06-11 23:24:43,501 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-11 23:24:43,502 - INFO - 127.0.0.1 - - [11/Jun/2026 23:24:43] "GET /health HTTP/1.1" 200 -
+2026-06-12 16:26:11,625 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-12 16:26:11,627 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-12 16:26:11,627 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-12 16:26:11,627 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-12 16:26:25,925 - INFO -    Loaded 754 pages
+2026-06-12 16:26:25,925 - INFO - ✂️  Creating chunks...
+2026-06-12 16:26:25,945 - INFO -    Created 1343 chunks
+2026-06-12 16:26:25,945 - INFO - 🔍 Building vector index...
+2026-06-12 16:27:32,372 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-12 16:27:36,402 - INFO - No device provided, using cpu
+2026-06-12 16:27:37,004 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-12 16:27:58,331 - INFO - Loading faiss with AVX2 support.
+2026-06-12 16:27:58,331 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-12 16:27:58,331 - INFO - Loading faiss.
+2026-06-12 16:27:58,609 - INFO - Successfully loaded faiss.
+2026-06-12 16:27:58,681 - INFO -    Index ready!
+2026-06-12 16:27:58,682 - INFO - 🤖 Initializing LLM client...
+2026-06-12 16:27:59,361 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-12 16:27:59,361 - INFO - ✅ Chatbot initialized successfully!
+2026-06-12 16:27:59,362 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x0000021C5E7BFF50>
+2026-06-12 16:27:59,362 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-12 16:27:59,362 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x0000021C5E7BFF50>
+2026-06-12 16:27:59,364 - INFO - 🚀 Starting Flask API Server...
+2026-06-12 16:27:59,364 - INFO -    Host: 0.0.0.0:5005
+2026-06-12 16:27:59,364 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-12 16:27:59,364 - INFO - 
+2026-06-12 16:27:59,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-12 16:27:59,370 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-12 16:30:53,787 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 16:30:53,788 - INFO - 127.0.0.1 - - [12/Jun/2026 16:30:53] "GET /health HTTP/1.1" 200 -
+2026-06-12 16:46:16,553 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 16:46:16,554 - INFO - 127.0.0.1 - - [12/Jun/2026 16:46:16] "GET /health HTTP/1.1" 200 -
+2026-06-12 16:58:29,220 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 16:58:29,220 - INFO - 127.0.0.1 - - [12/Jun/2026 16:58:29] "GET /health HTTP/1.1" 200 -
+2026-06-12 16:58:39,218 - INFO - 127.0.0.1 - - [12/Jun/2026 16:58:39] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-12 16:58:39,470 - INFO - 📥 Query: how do i change my name ?
+2026-06-12 16:58:57,321 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 16:58:57,347 - INFO - 127.0.0.1 - - [12/Jun/2026 16:58:57] "POST /ask HTTP/1.1" 200 -
+2026-06-12 17:01:52,253 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-12 17:01:52,255 - INFO - 127.0.0.1 - - [12/Jun/2026 17:01:52] "GET /health HTTP/1.1" 200 -
+2026-06-12 17:02:02,982 - INFO - 127.0.0.1 - - [12/Jun/2026 17:02:02] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-12 17:02:03,230 - INFO - 📥 Query: how do i change my name
+2026-06-12 17:02:09,043 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 17:02:09,044 - INFO - 127.0.0.1 - - [12/Jun/2026 17:02:09] "POST /ask HTTP/1.1" 200 -
+2026-06-12 17:04:04,126 - INFO - 127.0.0.1 - - [12/Jun/2026 17:04:04] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-12 17:04:04,378 - INFO - 📥 Query: what is ERP
+2026-06-12 17:04:08,887 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-12 17:04:08,889 - INFO - 127.0.0.1 - - [12/Jun/2026 17:04:08] "POST /ask HTTP/1.1" 200 -
+2026-06-14 01:56:05,423 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-14 01:56:05,425 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-14 01:56:05,425 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-14 01:56:05,426 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-14 01:56:21,613 - INFO -    Loaded 754 pages
+2026-06-14 01:56:21,614 - INFO - ✂️  Creating chunks...
+2026-06-14 01:56:21,636 - INFO -    Created 1343 chunks
+2026-06-14 01:56:21,636 - INFO - 🔍 Building vector index...
+2026-06-14 01:57:43,458 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-14 01:57:47,808 - INFO - No device provided, using cpu
+2026-06-14 01:57:48,420 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-14 01:58:09,530 - INFO - Loading faiss with AVX2 support.
+2026-06-14 01:58:09,530 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-14 01:58:09,530 - INFO - Loading faiss.
+2026-06-14 01:58:09,759 - INFO - Successfully loaded faiss.
+2026-06-14 01:58:09,811 - INFO -    Index ready!
+2026-06-14 01:58:09,811 - INFO - 🤖 Initializing LLM client...
+2026-06-14 01:58:10,320 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-14 01:58:10,320 - INFO - ✅ Chatbot initialized successfully!
+2026-06-14 01:58:10,320 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x000001CC378BFED0>
+2026-06-14 01:58:10,320 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-14 01:58:10,320 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x000001CC378BFED0>
+2026-06-14 01:58:10,320 - INFO - 🚀 Starting Flask API Server...
+2026-06-14 01:58:10,320 - INFO -    Host: 0.0.0.0:5005
+2026-06-14 01:58:10,320 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-14 01:58:10,320 - INFO - 
+2026-06-14 01:58:10,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-14 01:58:10,344 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 01:58:55,500 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 01:58:55,502 - INFO - 127.0.0.1 - - [14/Jun/2026 01:58:55] "GET /health HTTP/1.1" 200 -
+2026-06-14 01:59:02,608 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 01:59:02,608 - INFO - 127.0.0.1 - - [14/Jun/2026 01:59:02] "GET /health HTTP/1.1" 200 -
+2026-06-14 01:59:06,999 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 01:59:06,999 - INFO - 127.0.0.1 - - [14/Jun/2026 01:59:06] "GET /health HTTP/1.1" 200 -
+2026-06-14 02:00:21,918 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 02:00:21,918 - INFO - 127.0.0.1 - - [14/Jun/2026 02:00:21] "GET /health HTTP/1.1" 200 -
+2026-06-14 02:00:55,224 - INFO - 📦 create_app() called - creating Flask instance
+2026-06-14 02:00:55,224 - INFO - 🔄 Attempting to initialize chatbot...
+2026-06-14 02:00:55,224 - INFO - 🤖 Initializing Customer Support Chatbot...
+2026-06-14 02:00:55,226 - INFO - 📄 Loading PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-14 02:01:08,893 - INFO -    Loaded 754 pages
+2026-06-14 02:01:08,893 - INFO - ✂️  Creating chunks...
+2026-06-14 02:01:08,915 - INFO -    Created 1343 chunks
+2026-06-14 02:01:08,915 - INFO - 🔍 Building vector index...
+2026-06-14 02:01:18,768 - WARNING - From C:\Windows\System32\tf_env\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-14 02:01:19,352 - INFO - No device provided, using cpu
+2026-06-14 02:01:19,883 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-14 02:01:39,596 - INFO - Loading faiss with AVX2 support.
+2026-06-14 02:01:39,596 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-14 02:01:39,597 - INFO - Loading faiss.
+2026-06-14 02:01:39,621 - INFO - Successfully loaded faiss.
+2026-06-14 02:01:39,662 - INFO -    Index ready!
+2026-06-14 02:01:39,663 - INFO - 🤖 Initializing LLM client...
+2026-06-14 02:01:39,902 - INFO -    Model: llama-3.2-3b-instruct
+2026-06-14 02:01:39,902 - INFO - ✅ Chatbot initialized successfully!
+2026-06-14 02:01:39,902 - INFO - ✅ create_app(): Chatbot object created: <__main__.EnterpriseCustomerSupportChatbot object at 0x0000022D653C3C50>
+2026-06-14 02:01:39,902 - INFO - ✅ create_app(): chatbot.initialized = True
+2026-06-14 02:01:39,902 - INFO - 📦 create_app(): Setting app.config['chatbot'] = <__main__.EnterpriseCustomerSupportChatbot object at 0x0000022D653C3C50>
+2026-06-14 02:01:39,904 - INFO - 🚀 Starting Flask API Server...
+2026-06-14 02:01:39,904 - INFO -    Host: 0.0.0.0:5005
+2026-06-14 02:01:39,904 - INFO -    PDF: c:\Users\Ammar\Desktop\AMMAR\api_code\cs_chatbot\Egyptian_ERP_System_Comprehensive_Manual.pdf
+2026-06-14 02:01:39,904 - INFO - 
+2026-06-14 02:01:39,912 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2026-06-14 02:01:39,912 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 02:05:52,444 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 02:05:52,444 - INFO - 127.0.0.1 - - [14/Jun/2026 02:05:52] "GET /health HTTP/1.1" 200 -
+2026-06-14 02:10:22,577 - INFO - 127.0.0.1 - - [14/Jun/2026 02:10:22] "OPTIONS /ask HTTP/1.1" 200 -
+2026-06-14 02:10:22,827 - INFO - 📥 Query: how do i change my name
+2026-06-14 02:10:32,924 - INFO - HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-14 02:10:32,941 - INFO - 127.0.0.1 - - [14/Jun/2026 02:10:32] "POST /ask HTTP/1.1" 200 -
+2026-06-14 02:18:24,960 - INFO - 🏥 Health check: chatbot=True, initialized=True, ready=True
+2026-06-14 02:18:24,961 - INFO - 127.0.0.1 - - [14/Jun/2026 02:18:24] "GET /health HTTP/1.1" 200 -
